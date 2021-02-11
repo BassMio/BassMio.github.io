@@ -3412,47 +3412,37 @@ li.categoryBar-list-item:nth-child(1) {
   background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover1.webp');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover5.webp');
+  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover2.webp');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover6.webp');
+  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover3.webp');
 }
 li.categoryBar-list-item:nth-child(4) {
-  background: #abcdef;
+  background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover4.webp');
 }
 li.categoryBar-list-item:nth-child(5) {
-  background: rgba(45,67,89,0.7);
-}
-li.categoryBar-list-item:nth-child(6) {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-  background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
-}
-li.categoryBar-list-item:nth-child(7) {
   background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover5.webp');
 }
-li.categoryBar-list-item:nth-child(8) {
+li.categoryBar-list-item:nth-child(6) {
   background: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover6.webp');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '长篇小说连载' !important;
+  content: 'DEM学习' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '杂谈教程' !important;
+  content: 'MarkDown语法' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '玩转Win10' !important;
 }
 li.categoryBar-list-item:nth-child(4)>span::after {
-  content: 'Ubuntu指南' !important;
+  content: '鸡汤' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
-  content: '个人日记' !important;
+  content: '设计优化方法' !important;
 }
 li.categoryBar-list-item:nth-child(6)>span::after {
-  content: '诗词歌赋' !important;
+  content: '待定' !important;
 }
 li.categoryBar-list-item {
   width: 32.3% !important;
@@ -3630,7 +3620,7 @@ li.categoryBar-list-item {
   background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
 }
 .GalMenu .ring a:nth-of-type(2) {
-  background-image: url("https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/archive.png");
+  background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
 }
 .GalMenu .ring a:nth-of-type(3) {
   background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
@@ -3639,10 +3629,10 @@ li.categoryBar-list-item {
   background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
 }
 .GalMenu .ring a:nth-of-type(5) {
-  background-image: url("https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/link.png");
+  background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
 }
 .GalMenu .ring a:nth-of-type(6) {
-  background-image: url("https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/comment.png");
+  background-image: url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_3/galmenu/random.png');
 }
 .GalMenu .ring a:hover {
   text-shadow: #6cf 1px 0 0, #6cf 0 1px 0, #6cf -1px 0 0, #6cf 0 -1px 0;

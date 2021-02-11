@@ -4,7 +4,7 @@ $(function(){
 
 
 /*添加图片top*/
-var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/lete114/CDN/Use/up.gif' title='回到顶部' >";
+var top_up = "<img id='upj' class='upj' style='max-width: 600%; transform: translate(-180px,-120px);' src='https://cdn.jsdelivr.net/gh/fudalijunyi/picture-bed/img/20200629182853.gif' title='回到顶部' >";
 /*添加到返回顶部按钮下*/
 document.getElementById("go-up").innerHTML += top_up;
  
