@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>工程图绘图标准</title>
+      <link href="/84d6aa19.html"/>
+      <url>/84d6aa19.html</url>
+      
+        <content type="html"><![CDATA[<details green><summary> 识读装配图 </summary>              <div class='content'>              <div class="tabs" id="识读装配图"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#识读装配图-1">读装配图</button></li><li class="tab"><button type="button" data-href="#识读装配图-2">画装配图</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="识读装配图-1"><div class="timeline"><p class='p h2'>读装配图的步骤和方法</p><div class="timenode"><div class="meta"><p><p>概括了解</p></p></div><div class="body"><ol><li>从标题栏和查阅的有关资料中，了解机器或部件的名称和大致用途</li><li>从明细表和图上的零件序号中，了解各零件的名称、数量、材料和它们所在的位置</li><li>分析表达方法。根据图样上的视图、剖视图等的配置和标注，找出投射方向、剖切位置、各视图间的投影关系，分析全图采用了哪些表达方法，为什么采用它们？明确各视图所表达的重点</li></ol></div></div><div class="timenode"><div class="meta"><p><p>了解工作原理和装配关系</p></p></div><div class="body"><p>在概括了解的基础上，分析各零件间的定位、润滑、密封、连接方式和配合要求，从而搞清运动与非运动零件的相对运动关系。一般由动力输入件（如手轮、把手、带轮、齿轮和主动轴等）开始，沿着各传动系统按次序了解每个零件的作用，零件间的连接关系</p></div></div><div class="timenode"><div class="meta"><p><p>分析零件的结构形状及作用</p></p></div><div class="body"><p>通过前面的分析，能够了解大部分零件的形状和作用，而对少数复杂的零件还需应进一步分析。首先利用投影关系、剖面线方向和间隔、零件序号以及装配图中的规定画法和特殊画法等将零件分离出来，然后想象其形状，了解其作用</p></div></div><div class="timenode"><div class="meta"><p><p>尺寸分析</p></p></div><div class="body"><p>分析装配图中所注各类尺寸，从而进一步了解各零件间的配合性质和装配关系</p></div></div><div class="timenode"><div class="meta"><p><p>总结归纳</p></p></div><div class="body"><p>为了对装配图有一全面认识，还应根据机器或部件的工作原理从部件的装拆顺序、安装方法和技术要求进行综合分析，从而对整台机器或部件的设计意图和装配工艺性等有较完整的认识</p></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="识读装配图-2"><div class="timeline"><p class='p h2'>由装配图拆画零件图的步骤和方法</p><div class="timenode"><div class="meta"><p><p>仔细阅读装配图</p></p></div><div class="body"><p>在拆画零件图之前，一定要认真阅读装配图，完成读图的各项要求。再根据装配图的装配关系，利用投影关系和剖面线的方向和间隔、零件序号等来分离零件并分析所拆零件的作用及结构形状</p></div></div><div class="timenode"><div class="meta"><p><p>构思零件形状，拆出零件并补画所缺图线</p></p></div><div class="body"><p>从装配图上分离出零件的投影线后，要补画出所缺的图线。一般包括：</p><ul><li>该零件在装配图上被其他零件遮住的轮廓</li><li>在装配图上没有表达清楚的零件结构，要根据零件作用和装配关系重新设计</li><li>在装配图上被省略的工艺结构，如倒角、圆角、退刀槽、中心孔等，都应在零件图中表达清楚，使零件的结构形状表达得更为完整</li></ul></div></div><div class="timenode"><div class="meta"><p><p>确定表达方案</p></p></div><div class="body"><p>零件图和装配图所表达的重点不同，因此拆图时原装配图中对该零件的表达方案仅供参考，不能盲目地照抄装配图，而应根据零件本身的结构形状和“零件的视图选择”中的要求重新考虑。例如，轴套类零件应按加工位置安放；箱体类零件、叉架类零件应按工作位置安放来选取主视图的投影方向等</p></div></div><div class="timenode"><div class="meta"><p><p>合理标注零件尺寸</p></p></div><div class="body"><p>拆画零件图时，尺寸标注应从以下几方面考虑：</p><ol><li>除某些外形尺寸和装配时需要调整的尺寸外，装配图中注出的尺寸可以直接移到相关零件图上。凡注有配合代号的尺寸，应根据配合类别、公差等级注出上下偏差或公差带代号</li><li>对有标准规定的尺寸，如倒角、螺纹孔、螺栓孔、沉孔、螺纹退刀槽、砂轮越程槽、键槽等，应从有关标准和手册中查取</li><li>有些尺寸需要根据装配图上所给的参数进行计算，如齿轮分度圆直径，应根据模数和齿数计算而定</li><li>其他在装配图中未标出的尺寸可按装配图的比例，直接从图形上量取，对于一些非重要尺寸应取整数</li><li>在注写零件图上的尺寸时，对有装配关系的尺寸要注意相互协调，不能互相矛盾。另外，第6章中的零件图尺寸标注原理仍然适用，尺寸标注仍应综合考虑设计和工艺要求，力求注得完整、清晰和合理</li></ol></div></div><div class="timenode"><div class="meta"><p><p>合理注写零件技术要求</p></p></div><div class="body"><p>在零件图中应注写表面粗糙度代号、公差配合代号或极限偏差，必要时还要加注形位公差、热处理和表面处理等技术要求。这些内容可根据零件在装配体的作用、装配关系以及装配图上提出的要求，并参阅有关资料予以确定</p></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>              </div>            </details>]]></content>
+      
+      
+      <categories>
+          
+          <category> 机械设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 工程图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签测试页</title>
       <link href="/89b44f8a.html"/>
       <url>/89b44f8a.html</url>
