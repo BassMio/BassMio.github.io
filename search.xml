@@ -493,31 +493,6 @@
     
     
     <entry>
-      <title>现代设计方法原理</title>
-      <link href="/c2b5ee8a.html"/>
-      <url>/c2b5ee8a.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="现代设计方法">现代设计方法</h1><h2 id="响应面分析">响应面分析</h2><p>在过程优化里，最常用到的方法有三个：单因素试验、正交试验和响应面分析。其中，单因素试验是在假设因素间不存在交互作用的前提下，每次只改变一个因素且保证其他因素维持在恒定水平的条件下，研究不同试验水平对响应值的影响。 然而，大多数过程影响因素相当复杂，而且因素间通常又存在交互作用，并且当试验因素很多时，需要进行多次试验和较长的试验周期才能完成各因素的逐个优化。 正交试验可同时考虑多个因素，注重科学合理安排试验，以寻找最佳的因素水平组合。它的试验次数明显少于同因素同水平的单因素试验，可通过方差分析得到影响试验结果的主次因素，以及考虑因素间的交互作用等等。 但当考虑因素之间的交互作用时，其试验次数会大大增加，工作量巨大。 这个时候，响应面分析应运而生 响应面分析法，即响应曲面设计方法（Response Surface Methodology，RSM），是通过设计合理的有限次数试验，建立一个包括各显著因素的一次项、平方项和任何两个因素之间的一级交互作用项的数学模型，精确研究各因素与响应值之间的关系，快速有效地确定多因素系统的最佳条件。 该方法具有试验次数少、周期短、精度高等优点，是一种有效地优化基础试验条件的技术。 什么时候可以选用响应面法进行分析？ 当你确信或者怀疑因素对指标存在非线性影响，所有因素均为计量值数据并且试验区域已接近最优区域的时候，就可以用响应面法来设计优化你的试验。响应面分析的一般步骤： 确定因素及水平：注意因素数一般不超过 4 个，因素均为计量值数据 方法选择：创建<code>「中心复合」或者「Box-Behnken」设计</code></p><ul><li>确定试验运行顺序</li><li>进行试验并收集数据</li><li>分析试验数据</li><li>优化因素的设置水平</li><li>验证试验 其中，确定因素方法一般采用 Plackett-Burman 法，这是一种以不完全平衡块（balanced incomplete blocks）为原理的部分析因实验设计法，适用于从众多的考察因素中快速、有效的筛选出最为重要的几个因素，供进一步详细研究使用。 确定水平一般采用最陡爬坡试验，该试验分别对 3 个显著因素的正负效应设计最陡爬坡试验路径，包括各因素的变化步长和变化方向，以便最快地逼近最大响应区域。 响应面常用的方法有两种：中心复合试验设计（central composite design，CCD）和 Box-Behnken 试验设计（BBD）。 常用的响应面设计和分析软件有 Matlab、SAS 和 Design-Expert。在已经发表的有关响应面（RSM）优化试验的论文中，Design-Expert 是使用最广泛的软件。 Design-Expert 软件是由 State-East 公司开发的一款面向试验设计的相关分析的软件，相对于其他数理分析软件 JMP、SAS、Minitab 等，它具有使用简单，不需数理统计功底，就可以用设计出高效的试验方案，并对实验数据做专业的分析，给出全面、可视的模型以及优化结果。</li></ul><h2 id="多维无约束优化方法">多维无约束优化方法</h2><p>多维无约束优化问题的一般数学表达式为 <span class="math display">\[\min f(X)=f\left(x_{1}, x_{2}, \cdots, x_{n}\right), \quad X \in R^{n}\]</span> 求解这类问题的方法，称为多维无约束优化方法。它也是构成约束优化方法的基础算法。 多维无约束优化方法是优化技术中最重要和最基本的内容之一。因为它不仅可以直接用来求解无约束优化问题，而且实际工程设计问题中的大量约束优化问题，有时也是通过对约束条件的适当处理，转化为无约束优化问题来求解的。所以，无约束优化方法在工程优化设计中有着十分重要的作用。 多维无约束优化方法，根据其确定搜索方向所使用的信息和方法的不同，可分为两大类：一是需要利用目标函数的一阶偏导数或二阶偏导数来构造搜索方向，如梯度法、共轭梯度法、牛顿法和变尺度法等。这类方法由于需要计算偏导数，因此计算量大，但收敛速度较快，一般称之为间接法。另一类是通过几个已知点上目标函数值的比较来构造搜索方向，如坐标轮换法、随机搜索法和共轭方向法等。这类方法由于只需要计算函数值，因而对于无法求导或求导困难的函数，该法就有了突出的优越性，但是其收敛速度较慢，一般称之为直接法。 各种优化方法之间的主要差异是在于构造的搜索方向，因此，关于搜索方向S<sup>（k）</sup>的选择问题，是最优化方法要讨论的重要内容。下面介绍几种经典的无约束优化方法。</p><h3 id="变尺度法">变尺度法</h3><p>变尺度法的提出与梯度法和牛顿法有着密切联系。它是一种拟牛顿法。所谓拟牛顿法是指基于牛顿法的基本原理而又对牛顿法作了重要改进的一种方法。这种方法克服了梯度法收敛慢和牛顿法计算量大的缺点，而又继承了牛顿法收敛速度快和梯度法计算简单的优点。理论和实践表明，变尺度法是求解无约束优化问题最有效的算法之一，是目前应用比较广泛的一种算法。变尺度法的种类很多，本节介绍其中最重要的两种：<strong>DFP变尺度法</strong>和<strong>BFGS变尺度法</strong>。</p><h4 id="dfp变尺度法"><strong>DFP变尺度法</strong></h4><p>变尺度法的基本思想是：利用牛顿法的迭代形式，但并不直接计算<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>，而是用一个对称正定矩阵A<sup>(k)</sup>近似地代替<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>在迭代过程中，不断地改进，最后逼近<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>。这种方法，省去了海森矩阵的计算和求逆，使之计算量大为减少，而且还保持了牛顿法收敛快的优点。由于这一方法的迭代形式与牛顿法类似，所以又称拟牛顿法。</p><p>DFP变尺度法是由戴维顿（Davidon）首先提出，后经费莱彻（Fletcher）和鲍威尔（Powell）对之做了改进，因而称为DFP变尺度法。DFP变尺度法的迭代公式为 <span class="math display">\[X^{(k+1)}=X^{(k)}+\alpha^{(k)} S^{(k)}=X^{(k)}-\alpha^{(k)} A^{(k)} \nabla f\left(X^{(k)}\right) \label{eq:2-47}\]</span> 式中，<span class="math inline">\(\alpha\)</span><sup>(k)</sup>为变尺度法的最优步长；<span class="math inline">\(- A^{(k)} \nabla f\left(X^{(k)}\right)\)</span>为搜索方向，即<span class="math inline">\(S^{(k)}=-A^{(k)} \nabla f\left(X^{(k)}\right)\)</span>，称之为拟牛顿方向；A<sup>(k)</sup>为变尺度矩阵，是<span class="math inline">\(-n \times n\)</span>阶对称正定矩阵，在迭代过程中它是逐次形成并不断修正，即从一次迭代到另一次迭代是变化的，故称变尺度矩阵。 不难看出，当A<sup>(k)</sup>=Ⅰ（单位矩阵）时，式<span class="math inline">\(\eqref{eq:2-47}\)</span>变为 <span class="math display">\[X^{(k+1)}=X^{(k)}-\alpha^{(k)} \nabla f\left(X^{(k)}\right)\]</span></p><p>当<span class="math inline">\(X^{(k+1)}=X^{(k)}-\alpha^{(k)}\left[H\left(X^{(k)}\right)\right]^{-1} \nabla f\left(X^{(k)}\right)\)</span>时，式<span class="math inline">\(\eqref{eq:2-47}\)</span></p><p><span class="math display">\[X^{(k+1)}=X^{(k)}-\alpha^{(k)}\left[H\left(X^{(k)}\right)\right]^{-1} \nabla f\left(X^{(k)}\right)\]</span></p><figure><img src= "img/ballloading.gif" data-lazy-src="https://i.loli.net/2021/01/21/c58tKN1GIEQTObe.png" alt="image-20210121192108447" /><figcaption aria-hidden="true">image-20210121192108447</figcaption></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 现代设计方法 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 基础原理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>劝君自勉</title>
       <link href="/802bea05.html"/>
       <url>/802bea05.html</url>
@@ -535,6 +510,31 @@
         <tags>
             
             <tag> 激励 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>现代设计方法原理</title>
+      <link href="/c2b5ee8a.html"/>
+      <url>/c2b5ee8a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="现代设计方法">现代设计方法</h1><h2 id="响应面分析">响应面分析</h2><p>在过程优化里，最常用到的方法有三个：单因素试验、正交试验和响应面分析。其中，单因素试验是在假设因素间不存在交互作用的前提下，每次只改变一个因素且保证其他因素维持在恒定水平的条件下，研究不同试验水平对响应值的影响。 然而，大多数过程影响因素相当复杂，而且因素间通常又存在交互作用，并且当试验因素很多时，需要进行多次试验和较长的试验周期才能完成各因素的逐个优化。 正交试验可同时考虑多个因素，注重科学合理安排试验，以寻找最佳的因素水平组合。它的试验次数明显少于同因素同水平的单因素试验，可通过方差分析得到影响试验结果的主次因素，以及考虑因素间的交互作用等等。 但当考虑因素之间的交互作用时，其试验次数会大大增加，工作量巨大。 这个时候，响应面分析应运而生 响应面分析法，即响应曲面设计方法（Response Surface Methodology，RSM），是通过设计合理的有限次数试验，建立一个包括各显著因素的一次项、平方项和任何两个因素之间的一级交互作用项的数学模型，精确研究各因素与响应值之间的关系，快速有效地确定多因素系统的最佳条件。 该方法具有试验次数少、周期短、精度高等优点，是一种有效地优化基础试验条件的技术。 什么时候可以选用响应面法进行分析？ 当你确信或者怀疑因素对指标存在非线性影响，所有因素均为计量值数据并且试验区域已接近最优区域的时候，就可以用响应面法来设计优化你的试验。响应面分析的一般步骤： 确定因素及水平：注意因素数一般不超过 4 个，因素均为计量值数据 方法选择：创建<code>「中心复合」或者「Box-Behnken」设计</code></p><ul><li>确定试验运行顺序</li><li>进行试验并收集数据</li><li>分析试验数据</li><li>优化因素的设置水平</li><li>验证试验 其中，确定因素方法一般采用 Plackett-Burman 法，这是一种以不完全平衡块（balanced incomplete blocks）为原理的部分析因实验设计法，适用于从众多的考察因素中快速、有效的筛选出最为重要的几个因素，供进一步详细研究使用。 确定水平一般采用最陡爬坡试验，该试验分别对 3 个显著因素的正负效应设计最陡爬坡试验路径，包括各因素的变化步长和变化方向，以便最快地逼近最大响应区域。 响应面常用的方法有两种：中心复合试验设计（central composite design，CCD）和 Box-Behnken 试验设计（BBD）。 常用的响应面设计和分析软件有 Matlab、SAS 和 Design-Expert。在已经发表的有关响应面（RSM）优化试验的论文中，Design-Expert 是使用最广泛的软件。 Design-Expert 软件是由 State-East 公司开发的一款面向试验设计的相关分析的软件，相对于其他数理分析软件 JMP、SAS、Minitab 等，它具有使用简单，不需数理统计功底，就可以用设计出高效的试验方案，并对实验数据做专业的分析，给出全面、可视的模型以及优化结果。</li></ul><h2 id="多维无约束优化方法">多维无约束优化方法</h2><p>多维无约束优化问题的一般数学表达式为 <span class="math display">\[\min f(X)=f\left(x_{1}, x_{2}, \cdots, x_{n}\right), \quad X \in R^{n}\]</span> 求解这类问题的方法，称为多维无约束优化方法。它也是构成约束优化方法的基础算法。 多维无约束优化方法是优化技术中最重要和最基本的内容之一。因为它不仅可以直接用来求解无约束优化问题，而且实际工程设计问题中的大量约束优化问题，有时也是通过对约束条件的适当处理，转化为无约束优化问题来求解的。所以，无约束优化方法在工程优化设计中有着十分重要的作用。 多维无约束优化方法，根据其确定搜索方向所使用的信息和方法的不同，可分为两大类：一是需要利用目标函数的一阶偏导数或二阶偏导数来构造搜索方向，如梯度法、共轭梯度法、牛顿法和变尺度法等。这类方法由于需要计算偏导数，因此计算量大，但收敛速度较快，一般称之为间接法。另一类是通过几个已知点上目标函数值的比较来构造搜索方向，如坐标轮换法、随机搜索法和共轭方向法等。这类方法由于只需要计算函数值，因而对于无法求导或求导困难的函数，该法就有了突出的优越性，但是其收敛速度较慢，一般称之为直接法。 各种优化方法之间的主要差异是在于构造的搜索方向，因此，关于搜索方向S<sup>（k）</sup>的选择问题，是最优化方法要讨论的重要内容。下面介绍几种经典的无约束优化方法。</p><h3 id="变尺度法">变尺度法</h3><p>变尺度法的提出与梯度法和牛顿法有着密切联系。它是一种拟牛顿法。所谓拟牛顿法是指基于牛顿法的基本原理而又对牛顿法作了重要改进的一种方法。这种方法克服了梯度法收敛慢和牛顿法计算量大的缺点，而又继承了牛顿法收敛速度快和梯度法计算简单的优点。理论和实践表明，变尺度法是求解无约束优化问题最有效的算法之一，是目前应用比较广泛的一种算法。变尺度法的种类很多，本节介绍其中最重要的两种：<strong>DFP变尺度法</strong>和<strong>BFGS变尺度法</strong>。</p><h4 id="dfp变尺度法"><strong>DFP变尺度法</strong></h4><p>变尺度法的基本思想是：利用牛顿法的迭代形式，但并不直接计算<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>，而是用一个对称正定矩阵A<sup>(k)</sup>近似地代替<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>在迭代过程中，不断地改进，最后逼近<span class="math inline">\(\left[H\left(X^{(k)}\right)\right]^{-1}\)</span>。这种方法，省去了海森矩阵的计算和求逆，使之计算量大为减少，而且还保持了牛顿法收敛快的优点。由于这一方法的迭代形式与牛顿法类似，所以又称拟牛顿法。</p><p>DFP变尺度法是由戴维顿（Davidon）首先提出，后经费莱彻（Fletcher）和鲍威尔（Powell）对之做了改进，因而称为DFP变尺度法。DFP变尺度法的迭代公式为 <span class="math display">\[X^{(k+1)}=X^{(k)}+\alpha^{(k)} S^{(k)}=X^{(k)}-\alpha^{(k)} A^{(k)} \nabla f\left(X^{(k)}\right) \label{eq:2-47}\]</span> 式中，<span class="math inline">\(\alpha\)</span><sup>(k)</sup>为变尺度法的最优步长；<span class="math inline">\(- A^{(k)} \nabla f\left(X^{(k)}\right)\)</span>为搜索方向，即<span class="math inline">\(S^{(k)}=-A^{(k)} \nabla f\left(X^{(k)}\right)\)</span>，称之为拟牛顿方向；A<sup>(k)</sup>为变尺度矩阵，是<span class="math inline">\(-n \times n\)</span>阶对称正定矩阵，在迭代过程中它是逐次形成并不断修正，即从一次迭代到另一次迭代是变化的，故称变尺度矩阵。 不难看出，当A<sup>(k)</sup>=Ⅰ（单位矩阵）时，式<span class="math inline">\(\eqref{eq:2-47}\)</span>变为 <span class="math display">\[X^{(k+1)}=X^{(k)}-\alpha^{(k)} \nabla f\left(X^{(k)}\right)\]</span></p><p>当<span class="math inline">\(X^{(k+1)}=X^{(k)}-\alpha^{(k)}\left[H\left(X^{(k)}\right)\right]^{-1} \nabla f\left(X^{(k)}\right)\)</span>时，式<span class="math inline">\(\eqref{eq:2-47}\)</span></p><p><span class="math display">\[X^{(k+1)}=X^{(k)}-\alpha^{(k)}\left[H\left(X^{(k)}\right)\right]^{-1} \nabla f\left(X^{(k)}\right)\]</span></p><figure><img src= "img/ballloading.gif" data-lazy-src="https://i.loli.net/2021/01/21/c58tKN1GIEQTObe.png" alt="image-20210121192108447" /><figcaption aria-hidden="true">image-20210121192108447</figcaption></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 现代设计方法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础原理 </tag>
             
         </tags>
       
